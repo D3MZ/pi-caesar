@@ -1,3 +1,5 @@
 {
-  "shift": 3
+  "cipher": "caesar",
+  "args": [3],
+  "format": "preserve"
 }
