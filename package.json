@@ -2,7 +2,15 @@
   "name": "pi-caesar",
   "version": "0.1.0",
   "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/ciphers.test.mjs"
+  },
   "pi": {
-    "extensions": ["./pi-caesar.ts"]
+    "extensions": [
+      "./pi-caesar.ts"
+    ]
+  },
+  "dependencies": {
+    "cipherts": "^0.1.3"
   }
 }
